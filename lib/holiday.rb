@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
       # puts "  #{event}: #{supps.join(", ")}"
       # puts supps.join(", ")
       # puts "+++++++++"
-    end
+    # end
   end
 end
 all_supplies_in_holidays(my_hash)
