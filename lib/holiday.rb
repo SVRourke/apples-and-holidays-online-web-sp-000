@@ -86,6 +86,7 @@ def all_holidays_with_bbq(holiday_hash)
     sub_hash.select do |holiday, supplies_array|
       if supplies_array.include?("BBQ")
         holidays << holiday
+      end
   end
   puts holidays
 end
