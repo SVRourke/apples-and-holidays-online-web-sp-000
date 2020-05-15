@@ -76,10 +76,6 @@ def all_supplies_in_holidays(holiday_hash)
         # puts "+-#{item}"
         seasons_supplies << item
       end
-
-      # supplies = supplies_array.each do |item|
-      #   item.split(" ")
-      # end
     end
 
     #
