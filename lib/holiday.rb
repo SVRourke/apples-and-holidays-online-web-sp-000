@@ -77,6 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
         seasons_supplies << item
       end
     end
+    puts seasons_supplies
 
     #
     # hash.each do |holiday, supplies|
