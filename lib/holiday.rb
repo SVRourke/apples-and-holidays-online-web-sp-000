@@ -70,14 +70,14 @@ def all_supplies_in_holidays(holiday_hash)
     # puts hash
 
     hash.collect do |holiday, supplies_array|
-      seasons_supplies = Array.new
+      # seasons_supplies = Array.new
       print "  #{holiday}: #{supplies_array.join(", ")}"
       # supplies_array.each do |item|
       #   # puts "+-#{item}"
       #   seasons_supplies << item
       # end
     end
-    puts "  #{seasons_supplies.join(", ")}"
+    # puts "  #{seasons_supplies.join(", ")}"
 
     #
     # hash.each do |holiday, supplies|
