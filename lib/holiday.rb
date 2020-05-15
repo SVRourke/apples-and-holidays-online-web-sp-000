@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
         seasons_supplies << item
       end
     end
-    puts seasons_supplies.join(" ")
+    puts "  #{seasons_supplies.join(", ")}"
 
     #
     # hash.each do |holiday, supplies|
